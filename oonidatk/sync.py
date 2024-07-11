@@ -95,4 +95,5 @@ def download_measurements(cache, query={}, concurrency=10, extract=False):
         else:
             break
 
+    print(str(len(downloaded_msmts)) + " Measurements downloaded.")
     return downloaded_msmts
